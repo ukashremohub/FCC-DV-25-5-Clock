@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Pacifico', sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: #eb2f06;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius : 15px;
+  border : #000;
+}
+button:hover{
+  opacity : 0.8;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+  margin: 0
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container {
+  border: 2px solid #fbc531;
+  border-radius: 40px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.clock-container h1 {
+  margin: 0;
+}
+
+.clock-container span {
+  font-size: 60px;
+}
